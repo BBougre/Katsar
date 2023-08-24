@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/media/abn/abn_hdd/Dropbox/PERSO/poly_makria/gate_trigger-zeroHP/gtt-zeroHP/gtt-zeroHP.kicad_sch</source>
+    <date>mer. 12 juil. 2023 11:40:41</date>
+    <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>gtt-zeroHP.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>C</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="LCSC">C1846</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C1846"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="gtt-zeroHP.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ce9a3a9-b0b2-41f5-a4c0-11af61286725</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="LCSC">C95872</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="LCSC" value="C95872"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="gtt-zeroHP.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90387790-4792-4150-add6-2e3bd281b05d</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="LCSC">C95872</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="LCSC" value="C95872"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="gtt-zeroHP.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>996e4d7a-7f2e-40b6-9333-0d761b3ee56e</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>INPUT</value>
+      <footprint>winterbloom:AudioJack_WQP518MA</footprint>
+      <datasheet>http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html</datasheet>
+      <fields>
+        <field name="MPN">WQP-WQP518MA</field>
+      </fields>
+      <libsource lib="winterbloom" part="Eurorack_Mono_Jack" description="Eurorack vertical jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="MPN" value="WQP-WQP518MA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="gtt-zeroHP.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7aad8e2a-3059-436f-8825-1fe6322f80e8</tstamps>
+    </comp>
+    <comp ref="OUTPUT1">
+      <value>Eurorack_Mono_Jack</value>
+      <footprint>winterbloom:AudioJack_WQP518MA</footprint>
+      <datasheet>http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html</datasheet>
+      <fields>
+        <field name="MPN">WQP-WQP518MA</field>
+      </fields>
+      <libsource lib="winterbloom" part="Eurorack_Mono_Jack" description="Eurorack vertical jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="MPN" value="WQP-WQP518MA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="gtt-zeroHP.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fdcc68c-cb50-4dac-be69-07e251e96150</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>330k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23137</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C23137"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="gtt-zeroHP.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e193de3-cf8a-4ffa-b2cf-6b4a445d2afa</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25803</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25803"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="gtt-zeroHP.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a1cac35-901c-4a34-8c2f-28890ab3c6a2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="winterbloom" part="Eurorack_Mono_Jack">
+      <description>Eurorack vertical jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)</description>
+      <docs>http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Eurorack_Mono_Jack</field>
+        <field name="Footprint">winterbloom:AudioJack_WQP518MA</field>
+        <field name="Datasheet">http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html</field>
+        <field name="MPN">WQP-WQP518MA</field>
+      </fields>
+      <pins>
+        <pin num="S" name="Sleeve" type="passive"/>
+        <pin num="T" name="Tip" type="passive"/>
+        <pin num="TN" name="Tip_normalize" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="winterbloom">
+      <uri>/media/abn/abn_hdd/Dropbox/PERSO/poly_makria/kicad_lib/winterbloom_kicad_library-main/symbols/winterbloom.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="S" pinfunction="Sleeve" pintype="passive"/>
+      <node ref="OUTPUT1" pin="S" pinfunction="Sleeve" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="T" pinfunction="Tip" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(OUTPUT1-PadT)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="OUTPUT1" pin="T" pinfunction="Tip" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="unconnected-(J1-PadTN)">
+      <node ref="J1" pin="TN" pinfunction="Tip_normalize" pintype="passive+no_connect"/>
+    </net>
+    <net code="6" name="unconnected-(OUTPUT1-PadTN)">
+      <node ref="OUTPUT1" pin="TN" pinfunction="Tip_normalize" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
