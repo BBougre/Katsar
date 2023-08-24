@@ -8,14 +8,14 @@ This repository contains all the files necessary to build this little synth util
 ## The theory
 First comes the very simple schematics
 <p align = "center">
-  <img src="Kastar_schematics.png" alt="electronics schematics" class="center" width="250" /> 
+  <img src="Kastar_schematics.png" alt="electronics schematics" class="center" width="500" /> 
 </p>
 
 &nbsp;
 
 And then the simulated behavior using circuitJS
 <p align = "center">
-  <img src="Kastar_simulation.png" alt="electronics schematics" class="center" width="250" /> 
+  <img src="Katsar_simulation.png" alt="electronics schematics" class="center" width="500" /> 
 </p>
 &nbsp;
 
