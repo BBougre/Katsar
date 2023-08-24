@@ -5,9 +5,21 @@ This project is the hebrew for "short" as I felt it was the right name for a gat
 This repository contains all the files necessary to build this little synth utility.
 &nbsp;
 
-&nbsp;
+## The theory
+First comes the very simple schematics
+<p align = "center">
+  <img src="Kastar_schematics.png" alt="electronics schematics" class="center" width="250" /> 
+</p>
 
 &nbsp;
+
+And then the simulated behavior using circuitJS
+<p align = "center">
+  <img src="Kastar_simulation.png" alt="electronics schematics" class="center" width="250" /> 
+</p>
+&nbsp;
+
+## In the material world
 
 All the separate components :
 <p align = "center">
